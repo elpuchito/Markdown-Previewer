@@ -1,7 +1,5 @@
 import "./App.css";
 
-import Form from "react-bootstrap/Form";
-
 import React, { Component } from "react";
 import marked from "marked";
 
@@ -76,18 +74,4 @@ export default class App extends Component {
       </div>
     );
   }
-}
-
-{
-  /* <Form>
-            <Form.Group controlId="formControlsTextarea">
-              <Form.Label> Markdown input</Form.Label>
-              <Form.Control
-                componentClass="textarea"
-                placeholder="enter text"
-                value={markdown}
-                onChange={(event) => this.updateMarkdown(event.target.value)}
-              ></Form.Control>
-            </Form.Group>
-          </Form> */
 }
